@@ -4,6 +4,8 @@
     font-family: NeueMontreal-Medium,sans-serif;
     margin-right: 32px;
     margin-top: 15px;
+    position: sticky;
+   
 }
 .left{
     display: flex;
@@ -29,4 +31,28 @@ height: 100%;
 background-position: 50%;
 background-size: cover;
 width: 100%;
+position: relative;
+}
+
+.vid-text{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+    font-family: NeueMontreal-Medium,sans-serif;
+    
+    
+}
+strong{
+    font-size: 2rem;
+}
+#Advertisement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 50vh;
+  
 }
